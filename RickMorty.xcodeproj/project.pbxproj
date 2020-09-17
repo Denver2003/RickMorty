@@ -13,6 +13,7 @@
 		56824E5A2513657E008EECCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56824E582513657E008EECCD /* Main.storyboard */; };
 		56824E5C25136581008EECCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56824E5B25136581008EECCD /* Assets.xcassets */; };
 		56824E5F25136581008EECCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56824E5D25136581008EECCD /* LaunchScreen.storyboard */; };
+		56824E6825137612008EECCD /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56824E6725137612008EECCD /* SettingsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		56824E5B25136581008EECCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56824E5E25136581008EECCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56824E6025136581008EECCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56824E6725137612008EECCD /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		56824E512513657E008EECCD /* RickMorty */ = {
 			isa = PBXGroup;
 			children = (
+				56824E66251375F9008EECCD /* Model */,
 				56824E522513657E008EECCD /* AppDelegate.swift */,
 				56824E542513657E008EECCD /* SceneDelegate.swift */,
 				56824E562513657E008EECCD /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				56824E6025136581008EECCD /* Info.plist */,
 			);
 			path = RickMorty;
+			sourceTree = "<group>";
+		};
+		56824E66251375F9008EECCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56824E6725137612008EECCD /* SettingsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56824E6825137612008EECCD /* SettingsModel.swift in Sources */,
 				56824E572513657E008EECCD /* ViewController.swift in Sources */,
 				56824E532513657E008EECCD /* AppDelegate.swift in Sources */,
 				56824E552513657E008EECCD /* SceneDelegate.swift in Sources */,
